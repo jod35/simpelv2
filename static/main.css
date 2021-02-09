@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:url('./img/06.jpg')  no-repeat  center/cover;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    height: 3vh;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items > a+a{
+    margin-left: 20px;
+}
+.signup-form-modal{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.513);
+    display: none;
+    transition: 0.5s all;
+} 
+.login-form-modal{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.513);
+    display: none;
+}  
+.form{
+    width: 40%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 7px;
+}
+.form-group{
+    padding: 20px;
+
+}
+.form-control{
+    padding: 10px;
+    border-radius: 5px;
+    width: 95%;
+    border: 1px solid rgb(187, 184, 184);
+}
+.mybtn{
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(19, 110, 19);
+    font-weight: bold;
+    color: white;
+}
+.closebtn{
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
